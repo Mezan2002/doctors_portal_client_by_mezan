@@ -37,7 +37,7 @@ const Testimonial = () => {
       <div className="flex justify-between">
         <div>
           <div>
-            <h5 className="text-xl">Testimonial</h5>
+            <h5 className="text-xl text-primary">Testimonial</h5>
             <h2 className="text-4xl">What Our Patients Says</h2>
           </div>
         </div>
