@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal p-0">{menuItems}</ul>
         </div>
-        <div className="navbar-end md:hidden">
+        <div className="navbar-end lg:hidden">
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
