@@ -1,12 +1,14 @@
 import React from "react";
 import Bg from "../../../assets/images/appointment.png";
-import PrimaryButton from "../../../components/PrimaryButton/PrimaryButton";
 
 const Contact = () => {
   return (
     <section
       className="mt-16 py-32 mb-10 rounded-xl"
-      style={{ backgroundImage: `url(${Bg})` }}
+      style={{
+        backgroundImage: `url(${Bg})`,
+        backgroundSize: "cover",
+      }}
     >
       <div className="w-4/12 mx-auto">
         <div className="text-center mb-20">
