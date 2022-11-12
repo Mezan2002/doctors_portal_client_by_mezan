@@ -6,14 +6,14 @@ const About = () => {
     <div>
       <div className="hero my-40">
         <div className="hero-content flex-col lg:flex-row">
-          <div className="w-1/2">
+          <div className="lg:w-1/2 w-full">
             <img
               src={aboutImage}
-              className="rounded-lg shadow-2xl h-[576px]"
+              className="rounded-lg shadow-2xl lg:h-[576px]"
               alt=""
             />
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2 w-full">
             <h1 className="text-5xl font-bold">
               Exceptional Dental <br /> Care, on Your Terms
             </h1>

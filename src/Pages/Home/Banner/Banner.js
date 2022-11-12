@@ -1,11 +1,15 @@
 import React from "react";
 import BannerImage from "../../../assets/images/chair.png";
-import "./Banner.css";
+import PrimaryButton from "../../../components/PrimaryButton/PrimaryButton";
+import BannerBg from "../../../assets/images/bg.png";
 
 const Banner = () => {
   return (
     <div>
-      <div className="hero my-10 md:my-36 lg:mx-5">
+      <div
+        className="hero my-10 md:my-36 lg:mx-5"
+        style={{ backgroundImage: `url(${BannerBg})` }}
+      >
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="lg:w-1/2 w-full">
             <img src={BannerImage} className="rounded-lg shadow-2xl" alt="" />
@@ -17,9 +21,7 @@ const Banner = () => {
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the
             </p>
-            <button className="btn btn-primary bg-gradient-to-r from-secondary to-primary text-white">
-              Get Started
-            </button>
+            <PrimaryButton>Get Started</PrimaryButton>
           </div>
         </div>
       </div>
